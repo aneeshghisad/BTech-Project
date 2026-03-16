@@ -54,7 +54,7 @@ if st.button("🔄 Read Live Sensor Data"):
             st.dataframe(sample)
 
             #  DISPLAY RESULT 
-            st.subheader("🧠 Prediction Result")
+            st.subheader("Prediction Result")
 
             if milk_grade.lower() == "good":
                 st.success(f"Milk Quality: {milk_grade} ✅")
